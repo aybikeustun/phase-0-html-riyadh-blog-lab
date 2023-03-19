@@ -6,9 +6,8 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg);
-  background-repeat: repeat-y;
-  background-size: cover;
+  background: linear-gradient(tan, white);
+  background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
@@ -85,4 +84,7 @@ a:hover {
   .wrapper {
     width: 95%;
   }
+}
+#grad {
+  background-image: linear-gradient(red, yellow);
 }
