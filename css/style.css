@@ -6,9 +6,9 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: url(../images/backgrounds/architecture.jpg);
+  background-repeat: repeat-y;
   background-size: cover;
-  background-attachment: fixed;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
@@ -35,8 +35,9 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2em;
   margin-top: .5em;
+  color: rgb(214, 214, 214);
 }
 
 h3 {
@@ -53,10 +54,11 @@ img {
 
 p {
   font-size: 1em;
+  color: rgb(86, 86, 86);
 }
 
 a {
-  color: black;
+  color: rgb(5, 13, 161);
   text-decoration: none;
 }
 
